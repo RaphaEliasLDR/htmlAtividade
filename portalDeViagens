@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>
+            Portal de informações spbre viagens
+        </title>
+    </head>
+<body>
+    <h1>
+        Portal de Informações sobre Viagens
+    </h1>
+    <p>
+        Deseja saber mais sobre os destinos? <a href="https://www.viagens.com.br">Clique aqui para ir a seleção de destinos</a>
+        </a>
+    </p>
+    <p>
+        Para reservar passagens, visite nosso site <a href="https://www.parceiro.com.br">Expedia</a>
+    </p>
+    <h2>
+        Calendário de Promoções 
+    </h2>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+<table>
+    <thread>
+        <tr>
+            <th>Mês</th>
+            <th>Promoção</th>
+            <th>Desconto</th>
+        </tr>
+    </thread>
+    <tbody>
+        <tr>
+            <td>Janeiro</td>
+            <td>Promoção de Verão</td>
+            <td>30%</td>
+        </tr>
+        <tr>
+            <td>Julho</td>
+            <td>Promoção de Inverno</td>
+            <td>23%</td>
+        </tr>
+        <tr>
+            <td>Dezembro</td>
+            <td>Fim de Ano</td>
+            <td>40%</td>
+        </tr>
+    </tbody>
+</table>
+<figure>
+    <img src="c:\Users\aluno.den\Downloads\Porto-de-Galinhas.jpg" alt="Imagem">
+    <figcaption>Praia Tropical - um dos destinos mais procurados</figcaption>
+
+    <img src="c:\Users\aluno.den\Downloads\montanhas-nevadas-sob-um-ceu-nublado-azul-durante-o-dia_181624-2573.jpg" alt="Imagem">
+    <figcaption>Montanhas Nevadas - ideal para os amantes do frio</figcaption>
+</figure>
+<h3>
+    Destinos Populares
+</h3>
+<p>Rio de Janeiro</p>
+<blockquote>
+    Cidade famosa por suas praias, como Copacabana e Ipanema, e pelo Cristo Redentor.
+</blockquote>
+<p>Paris</p>
+<blockquote>
+    Capital da França, conhecida pela Torre Eiffel, museuse gastronomia refinada. 
+</blockquote>
+<p>Nova Iorque</p>
+<blockquote>
+    Cidade vibrante nos EUA, famosa por sua vida cultural, Times Square e a Estátua da Liberdade.
+</blockquote>
+<h3>
+    Entre em Contado
+</h3>
+
+<form action="Salvar_dados.php" method="post">
+    <p>Nome Completo: </p>
+    <input type="text" placeholder="Digite aqui"><br/>
+    <p>E-mail: </p>
+    <input type="text" placeholder="Digite aqui"><br/>
+    <p>Destino Preferido</p>
+            <select>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="Paris">Paris</option>
+                <option value="Nova Iorque">Nova Iorque</option>
+            </select>
+
+    <style>
+        .sua_mensagem {
+            margin-bottom: 15; /
+        }
+        .sua_mensagem label {
+            display: block; 
+            margin-bottom: 15px; 
+            font-weight: bold; 
+        }
+        .sua_mensagem input {
+            width: 50%; 
+            padding: 50px; 
+            box-sizing: border-box; 
+        }
+    </style>
+        <p>Sua mensagem:</p>
+        <div class="sua_mensagem">
+            <label for="mensagem"></label>
+            <input type="text" id="mensagem" name="sua mensagem" placeholder="">
+        </div>
+        
+    <input type="button" value="ENVIAR">
+</form>
+
+
+<a href="htpps://www.file:///C:/Users/aluno.den/Downloads/portalDeViagens%20(2).html">Voltar para o topo</a>
+</a>
+
+</body>
+</html>
